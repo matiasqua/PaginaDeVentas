@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.row h2{
+    color: #333;
+}
+
+.card-body h5:hover{
+    color: #2983bc;
+}
+
+
+
+.estiloCard{
+    padding: 10px;
+    height: 200px;
+    object-fit: contain;
+  
+    /* border-radius: 50%; */
+    /* object-position: center center; */
+}
+
+/* .publicidad{
+    width: 50vw;
+    object-fit: cover;
+} */
+
+
+
+/* .cantidad{
+    width: 100px;
+    margin: 5px;
+} */
+
+.linksTexto{
+    color: #616161;
+    text-decoration: none;
+}
+
+.linksTexto:hover{
+    color: #616161;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+body{
+    background: #f3f3f3;
+    
+}
+
+.botonCarrito{
+    background-color: #c5cbcf;
+}
+
+.botonCarrito:hover{
+    background-color: #616364 !important;
+    color: #FFF !important;
+}
+
+.botonComprar{
+    background-color: #0c487a;
+    color: #FFF 
+}
+
+.botonComprar:hover{
+    background-color: #194e792d !important;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid #616364;
+}
+
+.botonVerMas{
+    background-color: #0c487a;
+    color: #FFF 
+}
+
+.botonVerMas:hover{
+    background-color: #194e792d !important;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid #616364;
+}
+
+
+
+
+.precios{
+    font-size:1.3rem;
+}
+
+
+@media (min-width: 992px){
+    .precios{
+        font-size: 1.3rem;
+
+    }
+    .cantidad{
+        width: 70%;
+    }
+
+}

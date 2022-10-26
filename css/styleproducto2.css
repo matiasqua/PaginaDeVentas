@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background: #f3f3f3;
+    
+}
+
+.row h1{
+    color: #616161;
+}
+
+h2{
+    color: #ff0000;
+    font-weight: bold;
+    
+}
+
+h3{
+    color:#0c487a
+}
+
+.caracteristicas{
+    color: #616161;
+}
+h4{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.imagenProducto{
+    
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+
+
+}
+
+.imagenProducto:hover{
+    cursor:zoom-in;
+    transform: scale(1.1);
+     
+
+}
+.fa-credit-card{
+    color: rgb(46, 46, 177);
+    
+}
+
+.fa-square-check{
+    color: rgb(50, 250, 50);
+}
+
+.fa-store{
+    color: rgb(161, 161, 161);
+}
+
+.fa-truck{
+    color: rgb(161, 161, 161);
+}
+
+.fa-shield-halved{
+    color: blueviolet;
+}
+
+
+.estrella{
+    color: gold
+}
+.fa-star-half{
+    color: gold;
+}
+
+.botonCarrito{
+    background-color: #c5cbcf;
+}
+
+.botonCarrito:hover{
+    background-color: #616364 !important;
+    color: #FFF !important;
+}
+
+.botonComprar{
+    background-color: #0c487a;
+    color: #FFF 
+}
+
+.botonComprar:hover{
+    background-color: #194e792d !important;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid #616364;
+}

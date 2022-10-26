@@ -1,0 +1,13 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagenCarrito{
+    height: 10rem;
+    object-fit: contain;
+}
+
+body{
+    background: #f3f3f3;
+    
+}

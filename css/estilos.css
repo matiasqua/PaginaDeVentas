@@ -1,0 +1,52 @@
+/* ESTILOS de la pagina ACERCA DE NOSOTROS */
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+body{
+    background-color: #f3f3f3
+
+}
+
+
+
+.card{
+    background-color: #fff
+
+}
+
+.card:hover{
+    transform: scale(1.04);
+
+}
+
+
+.colorTitulo{
+    background-color: rgb(39, 144, 176);
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    justify-content: center;
+}
+
+.colorSub{
+    background-color: white;
+    color: rgb(39, 144, 176);
+    font-family: roboto;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+    padding: 0%;
+}
+
+
+
+.fotos{
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
